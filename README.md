@@ -9,7 +9,7 @@ custom arduino libraries for load testing raspberry pi 3
 ### 2. Get the sensors to communicate at 9600 baud.
     
     Serial.Begin(9600);  
-### 3. Output relevant data every 10 ms.
+### 3. Output relevant data every 50 ms.
     
     Serial.println(relevantData);   
 ### 4. Output all the relevant data that we would need from your sensor (compass heading, gyro rates, acceleration vectors etc.)
