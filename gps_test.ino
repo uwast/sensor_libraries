@@ -9,8 +9,8 @@ void loop()
  if (Serial1.available())
  {
   String data = Serial1.read();
-  Serial.write(data);
+  Serial.println(data);
  } 
 
-delay (10);
+delay (50);
 }
